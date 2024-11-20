@@ -8,7 +8,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://jade-centaur-149dee.netlify.app/', 
+  origin: '*', 
 }));
 app.use(bodyParser.json());
 
