@@ -7,7 +7,9 @@ const bodyParser = require('body-parser');
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: 'https://your-frontend-url.netlify.app', // replace with your Netlify URL
+}));
 app.use(bodyParser.json());
 
 // Connect to MongoDB Atlas
