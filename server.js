@@ -8,7 +8,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://your-frontend-url.netlify.app', // replace with your Netlify URL
+  origin: 'https://lustrous-macaron-914998.netlify.app/', 
 }));
 app.use(bodyParser.json());
 
